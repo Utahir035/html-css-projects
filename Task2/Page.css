@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: powderblue;
+}
+.container{
+    width: 70%;
+    height: 80vh;
+    background-image: linear-gradient(180deg,rgba(74, 125, 187, 0.5)100% ,transparent 50%), url('Download.jpg');
+    background-size: cover;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+nav{
+    background-color:transparent;
+    padding:15px 15px;
+    display: flex;
+    justify-content:space-between; 
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 0%;
+}
+ul{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+    font-size: 22px;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin-right: 30px;
+
+}
+ul li:last-child{
+    margin-right: 0;
+}
+.btn1{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    
+}
+.content{
+    color: white;
+    position: relative;
+    padding: 30px 30px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.input__field{
+    margin-top: 2rem;
+    max-width: 400px;
+    position: absolute;
+    right: 35%;
+    width: 100%;
+    background-color: transparent;
+    height:50px;
+        overflow:;
+        display: flex;
+        border: 2px solid #6e9ece;
+        align-items: center;
+}
+.input__field input{
+    flex: ;
+    outline: none;
+    background-color: transparent;
+    border:none !important;
+    padding: 0 30px;
+    font-size: 20px;
+    color:white;
+}
+.input__field input::placeholder {
+    color:#eee;
+}
+.btn2{
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+    height: 100%;
+    width: 200px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.input__field.btn2 :hover{
+    background-color: #6e9ece;
+    color: dodgerblue;
+    cursor: pointer;
+}
+button .btn1.btn2 :hover{
+    background-color: aqua;
+    color: #6e9ece;
+}
