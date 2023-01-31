@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:lightgray;
+}
+.main_container{
+    height: 400px;
+    width: 281px;
+    background-color: #3f3d4c;
+    box-shadow: 0 5px 10px #3f3d4c;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.container{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color:;
+    padding: 10px;
+
+}
+.container>div{
+    background-color: white;
+  border: 1px solid #d4d4dc;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.boxred{
+    color: white;
+}
+.boxred :hover{
+    
+}
